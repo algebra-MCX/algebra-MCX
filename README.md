@@ -50,6 +50,15 @@ All my vLLM PRs: [`author:algebra-MCX`](https://github.com/vllm-project/vllm/pul
 <img src="https://skillicons.dev/icons?i=py,cpp,c,pytorch,linux,bash,git,docker,vscode" alt="Tech stack" />
 </p>
 
+## GitHub stats
+
+<table>
+<tr>
+<td width="50%"><img src="https://github-readme-stats.vercel.app/api?username=algebra-MCX&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub stats: commits, PRs, issues, stars" width="100%" /></td>
+<td width="50%"><img src="https://streak-stats.demolab.com/?user=algebra-MCX&theme=github-dark-blue&hide_border=true" alt="Contribution streak" width="100%" /></td>
+</tr>
+</table>
+
 ## Contribution graph
 
 <picture>
