@@ -1,13 +1,23 @@
-# Hi, I'm Chenxi Ma 👋
+<div align="center">
 
-**LLM inference infrastructure · GPU kernels · distributed systems**
-Based in Beijing. I build and write about how large models are served fast.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F3BFF,100:0B1020&height=200&section=header&text=Chenxi%20Ma&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=LLM%20inference%20infrastructure%20%C2%B7%20GPU%20kernels%20%C2%B7%20distributed%20systems&descSize=16&descAlignY=58" width="100%" alt="Chenxi Ma" />
+
+<a href="https://github.com/algebra-MCX"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=760&height=44&lines=LLM+inference+infrastructure;MoE+expert+parallelism+%C2%B7+DBO+%C2%B7+NIXL+dispatch;GPU+kernels+%C2%B7+Triton+%C2%B7+CUDA+Graph;vLLM+contributor" alt="Typing animation" /></a>
+
+<br/>
+
+<a href="https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aalgebra-MCX"><img src="https://img.shields.io/badge/vLLM-contributor-1F3BFF?style=for-the-badge&logo=github&logoColor=white" alt="vLLM contributor" /></a>
+<a href="https://algebra-mcx.github.io/"><img src="https://img.shields.io/badge/Homepage-algebra--mcx.github.io-0B1020?style=for-the-badge" alt="Homepage" /></a>
+<a href="https://www.zhihu.com/people/zhib1eiazpn"><img src="https://img.shields.io/badge/知乎-Chenxi%20Ma-0084FF?style=for-the-badge" alt="Zhihu" /></a>
+<a href="https://x.com/Chenxi_Ma_ai"><img src="https://img.shields.io/badge/X-@Chenxi__Ma__ai-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+
+</div>
 
 ## What I work on
 
 - **MoE serving:** expert parallelism, dispatch / combine, communication–compute overlap
-- **GPU kernels:** Triton fused kernels, CUDA Graph decode, tensor-core attention
 - **vLLM:** MoE expert parallelism, dual-batch overlap (DBO) and NIXL dispatch in Model Runner V2
+- **GPU kernels:** Triton fused kernels, CUDA Graph decode, tensor-core attention
 - **Engines:** I read production inference engines closely, rebuild their core modules, and measure every change
 
 ## vLLM
@@ -24,8 +34,29 @@ All my vLLM PRs: [`author:algebra-MCX`](https://github.com/vllm-project/vllm/pul
 
 ## Projects
 
-- **[mini-DeepInfer](https://github.com/algebra-MCX/mini-DeepInfer)**: a minimal, readable re-implementation of DeepInfer's core inference engine design. Runs the real DeepSeek-V4.1-Flash on 4 × B200. Every optimization is written up in an issue with its baseline, profile, correctness tests and measured result. [Roadmap](https://github.com/algebra-MCX/mini-DeepInfer/issues/3).
-- **[MoEFlow](https://github.com/algebra-MCX/MoEFlow)**: MoE expert parallelism for vLLM, with fused Triton kernels, 2× NCCL all-to-all and CUDA Graph decode on B200.
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/algebra-MCX/mini-DeepInfer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=algebra-MCX&repo=mini-DeepInfer&theme=github_dark&hide_border=true" alt="mini-DeepInfer" width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/algebra-MCX/MoEFlow"><img src="https://github-readme-stats.vercel.app/api/pin/?username=algebra-MCX&repo=MoEFlow&theme=github_dark&hide_border=true" alt="MoEFlow" width="100%" /></a></td>
+</tr>
+</table>
+
+- **[mini-DeepInfer](https://github.com/algebra-MCX/mini-DeepInfer)**: runs the real DeepSeek-V4.1-Flash on 4 × B200. Every optimization is written up in an issue with its baseline, profile, correctness tests and measured result. [Roadmap](https://github.com/algebra-MCX/mini-DeepInfer/issues/3).
+- **[MoEFlow](https://github.com/algebra-MCX/MoEFlow)**: fused Triton kernels, 2× NCCL all-to-all and CUDA Graph decode for MoE expert parallelism on B200.
+
+## Tech stack
+
+<p>
+<img src="https://skillicons.dev/icons?i=py,cpp,c,pytorch,linux,bash,git,docker,vscode" alt="Tech stack" />
+</p>
+
+## Contribution graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/algebra-MCX/algebra-MCX/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/algebra-MCX/algebra-MCX/output/github-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/algebra-MCX/algebra-MCX/output/github-snake.svg" />
+</picture>
 
 ## Writing
 
@@ -33,6 +64,10 @@ All my vLLM PRs: [`author:algebra-MCX`](https://github.com/vllm-project/vllm/pul
 - X: [@Chenxi_Ma_ai](https://x.com/Chenxi_Ma_ai)
 - Blog: https://algebra-mcx.github.io/
 
-## Contact
+<div align="center">
 
 shannon20051127@gmail.com
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F3BFF,100:0B1020&height=110&section=footer" width="100%" alt="" />
+
+</div>
