@@ -7,11 +7,12 @@ Based in Beijing. I build and write about how large models are served fast.
 
 - **MoE serving:** expert parallelism, dispatch / combine, communication–compute overlap
 - **GPU kernels:** Triton fused kernels, CUDA Graph decode, tensor-core attention
+- **vLLM:** MoE expert parallelism, dual-batch overlap (DBO) and NIXL dispatch in Model Runner V2
 - **Engines:** I read production inference engines closely, rebuild their core modules, and measure every change
 
 ## vLLM
 
-I contribute to [vLLM](https://github.com/vllm-project/vllm), mainly on the MRV2 / DBO path for MoE and NIXL dispatch. Two of my PRs have been approved by maintainers and are on their way into `main`.
+I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focuses on MoE expert parallelism in Model Runner V2 (MRV2): correctness fixes under dual-batch overlap (DBO), and the performance of NIXL-based dispatch. Two of my PRs have been approved by maintainers and are on their way into `main`.
 
 | PR | What it does | Status |
 | --- | --- | --- |
