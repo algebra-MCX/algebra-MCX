@@ -32,10 +32,25 @@ I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focus
 
 ## Projects
 
+<!-- Repository counts are fetched from GitHub's API with a 300-second badge cache. GitHub's image proxy may add a delay. -->
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/algebra-MCX/mini-DeepInfer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=algebra-MCX&repo=mini-DeepInfer&theme=github_dark&hide_border=true" alt="mini-DeepInfer" width="100%" /></a></td>
-<td width="50%"><a href="https://github.com/algebra-MCX/MoEFlow"><img src="https://github-readme-stats.vercel.app/api/pin/?username=algebra-MCX&repo=MoEFlow&theme=github_dark&hide_border=true" alt="MoEFlow" width="100%" /></a></td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/algebra-MCX/mini-DeepInfer">mini-DeepInfer</a></h3>
+<p>A minimal, readable re-implementation of DeepInfer's core inference engine design.</p>
+<p>
+<a href="https://github.com/algebra-MCX/mini-DeepInfer/stargazers"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Falgebra-MCX%2Fmini-DeepInfer&amp;query=%24.stargazers_count&amp;label=Stars&amp;color=E3B341&amp;style=flat&amp;cacheSeconds=300" alt="mini-DeepInfer stars" /></a>
+<a href="https://github.com/algebra-MCX/mini-DeepInfer/forks"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Falgebra-MCX%2Fmini-DeepInfer&amp;query=%24.forks_count&amp;label=Forks&amp;color=58A6FF&amp;style=flat&amp;cacheSeconds=300" alt="mini-DeepInfer forks" /></a>
+</p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/algebra-MCX/MoEFlow">MoEFlow</a></h3>
+<p>MoE expert parallelism: fused Triton kernels, NCCL all-to-all and CUDA Graph decode on B200.</p>
+<p>
+<a href="https://github.com/algebra-MCX/MoEFlow/stargazers"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Falgebra-MCX%2FMoEFlow&amp;query=%24.stargazers_count&amp;label=Stars&amp;color=E3B341&amp;style=flat&amp;cacheSeconds=300" alt="MoEFlow stars" /></a>
+<a href="https://github.com/algebra-MCX/MoEFlow/forks"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Falgebra-MCX%2FMoEFlow&amp;query=%24.forks_count&amp;label=Forks&amp;color=58A6FF&amp;style=flat&amp;cacheSeconds=300" alt="MoEFlow forks" /></a>
+</p>
+</td>
 </tr>
 </table>
 
