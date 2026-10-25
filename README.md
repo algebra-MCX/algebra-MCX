@@ -22,12 +22,12 @@
 
 ## vLLM
 
-I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focuses on MoE expert parallelism in Model Runner V2 (MRV2): correctness fixes under dual-batch overlap (DBO), and the performance of NIXL-based dispatch. Two of my PRs have been approved by maintainers and are on their way into `main`.
+I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focuses on MoE expert parallelism in Model Runner V2 (MRV2): correctness fixes under dual-batch overlap (DBO), and the performance of NIXL-based dispatch. Two of my DBO correctness fixes have been merged into `main`.
 
 | PR | What it does | Status |
 | --- | --- | --- |
-| [#63476](https://github.com/vllm-project/vllm/pull/63476) | `[Bugfix][MRV2]` Report the first failed DBO microbatch | Approved, auto-merge enabled |
-| [#63372](https://github.com/vllm-project/vllm/pull/63372) | `[Bugfix][MRV2]` Keep routed-expert rows of every DBO microbatch | Approved |
+| [#63476](https://github.com/vllm-project/vllm/pull/63476) | `[Bugfix][MRV2]` Report the first failed DBO microbatch | Merged |
+| [#63372](https://github.com/vllm-project/vllm/pull/63372) | `[Bugfix][MRV2]` Keep routed-expert rows of every DBO microbatch | Merged |
 | [#63485](https://github.com/vllm-project/vllm/pull/63485) | `[Perf][MoE]` Size NIXL dispatch from synchronized execution slices | In review |
 
 All my vLLM PRs: [`author:algebra-MCX`](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aalgebra-MCX)
