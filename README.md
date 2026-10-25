@@ -30,8 +30,6 @@ I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focus
 | [#63372](https://github.com/vllm-project/vllm/pull/63372) | `[Bugfix][MRV2]` Keep routed-expert rows of every DBO microbatch | Merged |
 | [#63485](https://github.com/vllm-project/vllm/pull/63485) | `[Perf][MoE]` Size NIXL dispatch from synchronized execution slices | In review |
 
-All my vLLM PRs: [`author:algebra-MCX`](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aalgebra-MCX)
-
 ## Projects
 
 <table>
