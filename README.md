@@ -82,9 +82,11 @@ I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focus
 
 ## Writing
 
+My [blog](https://tech-blog-chi.vercel.app/) is now live! It brings together all my ideas, with posts about interesting open-source projects I discover and projects I build myself. Stay tuned.
+
 - 知乎, series *解构 DeepInfer*: https://www.zhihu.com/people/zhib1eiazpn
 - X: [@Chenxi_Ma_ai](https://x.com/Chenxi_Ma_ai)
-- Blog: https://algebra-mcx.github.io/
+- Blog: https://tech-blog-chi.vercel.app/
 
 <div align="center">
 
