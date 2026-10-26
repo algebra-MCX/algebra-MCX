@@ -36,11 +36,11 @@ I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focus
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/algebra-MCX/mini-DeepInfer">mini-DeepInfer</a></h3>
+<h3><a href="https://github.com/algebra-MCX/DeepInfer-Lab">DeepInfer-Lab</a></h3>
 <p>A minimal, readable re-implementation of DeepInfer's core inference engine design.</p>
 <p>
-<a href="https://github.com/algebra-MCX/mini-DeepInfer/stargazers"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Falgebra-MCX%2Fmini-DeepInfer&amp;query=%24.stargazers_count&amp;label=Stars&amp;color=E3B341&amp;style=flat&amp;cacheSeconds=300" alt="mini-DeepInfer stars" /></a>
-<a href="https://github.com/algebra-MCX/mini-DeepInfer/forks"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Falgebra-MCX%2Fmini-DeepInfer&amp;query=%24.forks_count&amp;label=Forks&amp;color=58A6FF&amp;style=flat&amp;cacheSeconds=300" alt="mini-DeepInfer forks" /></a>
+<a href="https://github.com/algebra-MCX/DeepInfer-Lab/stargazers"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Falgebra-MCX%2FDeepInfer-Lab&amp;query=%24.stargazers_count&amp;label=Stars&amp;color=E3B341&amp;style=flat&amp;cacheSeconds=300" alt="DeepInfer-Lab stars" /></a>
+<a href="https://github.com/algebra-MCX/DeepInfer-Lab/forks"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Falgebra-MCX%2FDeepInfer-Lab&amp;query=%24.forks_count&amp;label=Forks&amp;color=58A6FF&amp;style=flat&amp;cacheSeconds=300" alt="DeepInfer-Lab forks" /></a>
 </p>
 </td>
 <td width="50%" valign="top">
@@ -54,7 +54,7 @@ I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focus
 </tr>
 </table>
 
-- **[mini-DeepInfer](https://github.com/algebra-MCX/mini-DeepInfer)**: runs the real DeepSeek-V4.1-Flash on 4 × B200. Every optimization is written up in an issue with its baseline, profile, correctness tests and measured result. [Roadmap](https://github.com/algebra-MCX/mini-DeepInfer/issues/3).
+- **[DeepInfer-Lab](https://github.com/algebra-MCX/DeepInfer-Lab)**: runs the real DeepSeek-V4.1-Flash on 4 × B200. Every optimization is written up in an issue with its baseline, profile, correctness tests and measured result. [Roadmap](https://github.com/algebra-MCX/DeepInfer-Lab/issues/3).
 - **[MoEFlow](https://github.com/algebra-MCX/MoEFlow)**: fused Triton kernels, 2× NCCL all-to-all and CUDA Graph decode for MoE expert parallelism on B200.
 
 ## Tech stack
