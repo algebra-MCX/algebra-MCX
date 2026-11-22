@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aalgebra-MCX"><img src="https://img.shields.io/badge/vLLM-contributor-1F3BFF?style=for-the-badge&logo=github&logoColor=white" alt="vLLM contributor" /></a>
-<a href="https://algebra-mcx.github.io/"><img src="https://img.shields.io/badge/Homepage-algebra--mcx.github.io-0B1020?style=for-the-badge" alt="Homepage" /></a>
+<a href="https://tech-blog-chi.vercel.app/"><img src="https://img.shields.io/badge/Homepage-Chenxi%20Ma-0B1020?style=for-the-badge" alt="Homepage" /></a>
 <a href="https://www.zhihu.com/people/zhib1eiazpn"><img src="https://img.shields.io/badge/知乎-Chenxi%20Ma-0084FF?style=for-the-badge" alt="Zhihu" /></a>
 <a href="https://x.com/Chenxi_Ma_ai"><img src="https://img.shields.io/badge/X-@Chenxi__Ma__ai-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 
@@ -83,11 +83,11 @@ I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focus
 
 ## Writing
 
-My [blog](https://tech-blog-chi.vercel.app/) is now live! It brings together all my ideas, with posts about interesting open-source projects I discover and projects I build myself. Stay tuned.
+My [blog](https://tech-blog-chi.vercel.app/blog/) is now live! It brings together all my ideas, with posts about interesting open-source projects I discover and projects I build myself. Stay tuned.
 
 - 知乎, series *解构 DeepInfer*: https://www.zhihu.com/people/zhib1eiazpn
 - X: [@Chenxi_Ma_ai](https://x.com/Chenxi_Ma_ai)
-- Blog: https://tech-blog-chi.vercel.app/
+- Blog: https://tech-blog-chi.vercel.app/blog/
 
 <div align="center">
 
