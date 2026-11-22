@@ -22,10 +22,11 @@
 
 ## vLLM
 
-I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focuses on MoE expert parallelism in Model Runner V2 (MRV2): correctness fixes under dual-batch overlap (DBO), and the performance of NIXL-based dispatch. Two of my DBO correctness fixes have been merged into `main`.
+I'm a contributor to [vLLM](https://github.com/vllm-project/vllm). My work focuses on MoE expert parallelism in Model Runner V2 (MRV2): correctness fixes under dual-batch overlap (DBO), and the performance of NIXL-based dispatch. The three merged fixes below cover DBO correctness and NIXL expert remapping.
 
 | PR | What it does | Status |
 | --- | --- | --- |
+| [#64086](https://github.com/vllm-project/vllm/pull/64086) | Preserve invalid expert IDs in NIXL round-robin remapping and add adapter regression tests | Merged |
 | [#63476](https://github.com/vllm-project/vllm/pull/63476) | `[Bugfix][MRV2]` Report the first failed DBO microbatch | Merged |
 | [#63372](https://github.com/vllm-project/vllm/pull/63372) | `[Bugfix][MRV2]` Keep routed-expert rows of every DBO microbatch | Merged |
 | [#63485](https://github.com/vllm-project/vllm/pull/63485) | `[Perf][MoE]` Size NIXL dispatch from synchronized execution slices | In review |
