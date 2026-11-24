@@ -15,17 +15,28 @@ I'm a third-year undergraduate student and a research intern at [UW Systems Lab]
 
 ## Top Projects
 
-### <img src="https://tech-blog-chi.vercel.app/assets/vllm-logo.svg" width="22" height="22" alt=""> [vLLM](https://github.com/vllm-project/vllm)
-
-I work on MoE expert parallelism in Model Runner V2, fixing expert routing under dual-batch overlap (DBO) and issues in NIXL-based dispatch.
-
-[Selected vLLM contributions ↗](https://tech-blog-chi.vercel.app/#vllm)
-
-### <img src="https://tech-blog-chi.vercel.app/assets/sglang-logo.svg" width="22" height="22" alt=""> [SGLang](https://github.com/sgl-project/sglang)
-
-I work on expert-routing correctness under two-batch overlap (TBO), ensuring each token's routing record lands in the right row.
-
-[Selected SGLang contributions ↗](https://tech-blog-chi.vercel.app/#sglang)
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/vllm-project/vllm"><img src="https://tech-blog-chi.vercel.app/assets/vllm-logo.svg" width="24" height="24" alt=""> vLLM</a></h3>
+      <p>I work on MoE expert parallelism in Model Runner V2, fixing expert routing under dual-batch overlap (DBO) and issues in NIXL-based dispatch.</p>
+      <p>
+        <a href="https://github.com/vllm-project/vllm/stargazers"><img src="https://img.shields.io/github/stars/vllm-project/vllm" alt="vLLM stars"></a>
+        <a href="https://github.com/vllm-project/vllm/forks"><img src="https://img.shields.io/github/forks/vllm-project/vllm" alt="vLLM forks"></a>
+      </p>
+      <p><a href="https://tech-blog-chi.vercel.app/#vllm">Selected contributions ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/sgl-project/sglang"><img src="https://tech-blog-chi.vercel.app/assets/sglang-logo.svg" width="24" height="24" alt=""> SGLang</a></h3>
+      <p>I work on expert-routing correctness under two-batch overlap (TBO), ensuring each token's routing record lands in the right row.</p>
+      <p>
+        <a href="https://github.com/sgl-project/sglang/stargazers"><img src="https://img.shields.io/github/stars/sgl-project/sglang" alt="SGLang stars"></a>
+        <a href="https://github.com/sgl-project/sglang/forks"><img src="https://img.shields.io/github/forks/sgl-project/sglang" alt="SGLang forks"></a>
+      </p>
+      <p><a href="https://tech-blog-chi.vercel.app/#sglang">Selected contributions ↗</a></p>
+    </td>
+  </tr>
+</table>
 
 ## Publications
 
