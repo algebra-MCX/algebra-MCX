@@ -1,21 +1,24 @@
-# Chenxi Ma
+# Chenxi Ma · 马晨熙
 
-I work on LLM inference systems, with a focus on MoE expert parallelism, GPU kernels, and distributed serving.
+I'm a third-year undergraduate student currently interning at [UW Systems Lab](https://syslab.cs.washington.edu/), advised by [Baris Kasikci](https://homes.cs.washington.edu/~baris/) and [Arvind Krishnamurthy](https://www.cs.washington.edu/people/faculty/arvind). My interests include LLM inference runtimes, GPU scheduling, and MoE systems.
 
-[Website](https://tech-blog-chi.vercel.app/) · [Blog](https://tech-blog-chi.vercel.app/blog/) · [Zhihu](https://www.zhihu.com/people/zhib1eiazpn)
+[Website](https://tech-blog-chi.vercel.app/) · [Blog](https://tech-blog-chi.vercel.app/blog/) · [Learning](https://tech-blog-chi.vercel.app/learning/)
 
 ## Top Projects
 
-- **[DeepInfer-Lab](https://github.com/algebra-MCX/DeepInfer-Lab)** — Inference engine experiments with correctness tests, profiling, and end-to-end benchmarks.
-- **[MoEFlow](https://github.com/algebra-MCX/MoEFlow)** — MoE expert parallelism on B200 with fused Triton kernels, NCCL all-to-all, and CUDA Graph decode.
+### <img src="https://tech-blog-chi.vercel.app/assets/vllm-logo.svg" width="24" height="24" alt=""> [vLLM](https://github.com/vllm-project/vllm)
 
-## Open Source
+I contribute to MoE expert parallelism in Model Runner V2, focusing on expert-routing records under dual-batch overlap (DBO) and fixes to NIXL-based dispatch.  
+[Selected contributions](https://tech-blog-chi.vercel.app/#vllm)
 
-- **[vLLM](https://github.com/vllm-project/vllm)** — Model Runner V2 contributions on dual-batch overlap and NIXL expert dispatch.
-- **[SGLang](https://github.com/sgl-project/sglang)** — Expert routing and correctness fixes for two-batch overlap.
+### <img src="https://tech-blog-chi.vercel.app/assets/sglang-logo.svg" width="24" height="24" alt=""> [SGLang](https://github.com/sgl-project/sglang)
 
-[Selected PRs and contribution details](https://tech-blog-chi.vercel.app/#projects)
+I fix expert-routing records under two-batch overlap (TBO) so each token’s routing results are written to the right row.  
+[Selected contributions](https://tech-blog-chi.vercel.app/#sglang)
 
 ## Publications
 
-- **[TraceLab: Characterizing Coding Agent Workloads for LLM Serving](https://arxiv.org/abs/2606.30560)** · arXiv preprint, 2026 · [Code](https://github.com/uw-syfi/TraceLab)
+**[TraceLab: Characterizing Coding Agent Workloads for LLM Serving](https://arxiv.org/abs/2606.30560)**  
+Kan Zhu, Mathew Jacob, **Chenxi Ma**, Yi Pan, Stephanie Wang, Arvind Krishnamurthy, Baris Kasikci  
+arXiv preprint · 2026  
+[Paper](https://arxiv.org/abs/2606.30560) · [Project](https://tracelab.cs.washington.edu/) · [Code](https://github.com/uw-syfi/TraceLab)
